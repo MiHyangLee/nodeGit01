@@ -2,7 +2,7 @@ var fs = require('fs');
 
 try {
 	fs.writeFileSync('fsFile01.txt','Hello World2!', 'utf8');
-	console.log('It\'s saved.');
+	console.log('It\'s saved. Update~!!!');
 
 } catch (e) {
 	console.log(e);
